@@ -1,4 +1,5 @@
 # CODETECH_ADVANCE_TASK_1
+# File Integrity Checker
 # Personal Details
 - Name : Premkumar Soni 
 - Company : CODTECH IT SOLUTIONS PVT.LTD
@@ -6,7 +7,7 @@
 - Domain : Cyber Security & Ethical Hacking
 - Duration: 20th Dec 2024 To 20th Jan 2025
 - Mentor : Neela Santhosh Kumar 
-# File Integrity Checker
+# Overview
 
 The **File Integrity Checker** is a Python tool designed to monitor and verify the integrity of files using hash functions. It allows users to detect file modifications, maintain a history of changes, and ensure data consistency.
 
@@ -71,30 +72,40 @@ The **File Integrity Checker** is a Python tool designed to monitor and verify t
     Optionally, display the modification history for any file.
 
 ---
+## Screenshot
+![image](https://github.com/user-attachments/assets/2cb1203d-ed90-4e8d-a61f-1aff78507d09)
 
 ## Example
 
 ### Detecting Changes:
 ```bash
-Enter the file paths to monitor (separate multiple paths with commas):
-> example.txt, test_file.txt
+ _____ _ _        ___       _                  _ _
+|  ___(_) | ___  |_ _|_ __ | |_ ___  __ _ _ __(_) |_ _   _
+| |_  | | |/ _ \  | || '_ \| __/ _ \/ _` | '__| | __| | | |
+|  _| | | |  __/  | || | | | ||  __/ (_| | |  | | |_| |_| |
+|_|   |_|_|\___| |___|_| |_|\__\___|\__, |_|  |_|\__|\__, |
+                                    |___/            |___/
+  ____ _               _
+ / ___| |__   ___  ___| | _____ _ __
+| |   | '_ \ / _ \/ __| |/ / _ \ '__|
+| |___| | | |  __/ (__|   <  __/ |
+ \____|_| |_|\___|\___|_|\_\___|_|
 
+
+u:\CODTECH INTERNSHIP\CODTECH ADV TASK\TASK 1\example_file.txt
 Select a hash algorithm:
 1. md5
 2. sha1
 3. sha256
-Enter the number corresponding to your choice: 3
-
-Hash for example.txt (sha256): abc123...
-No changes detected for example.txt.
-
-Hash for test_file.txt (sha256): def456...
-WARNING: test_file.txt has been modified!
-
+Enter the number corresponding to your choice: 1
+Selected algorithm: md5
+Hash for u:\CODTECH INTERNSHIP\CODTECH ADV TASK\TASK 1\example_file.txt (md5): 62298bbc1b0affa31e5f31f1d8fed82f
+Stored hash: b415b32cbf036c7af9bfba6f7fbaa8ef (Last checked: 2025-01-16 15:09:44)
+WARNING: u:\CODTECH INTERNSHIP\CODTECH ADV TASK\TASK 1\example_file.txt has been modified using md5! (Stored: b415b32cbf036c7af9bfba6f7fbaa8ef, Current: 62298bbc1b0affa31e5f31f1d8fed82f)
 Do you want to view the modification history of any file? (yes/no): yes
-Enter the file path for which you want to view history: test_file.txt
-Modification history for test_file.txt (sha256):
-Previous Hash: oldhashvalue | Timestamp: 2024-01-01 12:00:00
+Enter the file path for which you want to view history: u:\CODTECH INTERNSHIP\CODTECH ADV TASK\TASK 1\example_file.txt        
+Modification history for u:\CODTECH INTERNSHIP\CODTECH ADV TASK\TASK 1\example_file.txt (md5):
+Previous Hash: b415b32cbf036c7af9bfba6f7fbaa8ef | Timestamp: 2025-01-16 15:10:18
 ```
 
 ---
@@ -124,5 +135,4 @@ Previous Hash: oldhashvalue | Timestamp: 2024-01-01 12:00:00
 
 ## Author
 - **Premkumar Soni**
-- [GitHub Profile](https://github.com/yourusername)
 
