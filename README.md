@@ -1,12 +1,12 @@
 # CODTECH_ADVANCE_TASK_1
 # File Integrity Checker
 # Personal Details
-- Name : Premkumar Soni 
-- Company : CODTECH IT SOLUTIONS PVT.LTD
-- ID : CT08DBS
-- Domain : Cyber Security & Ethical Hacking
-- Duration: 20th Dec 2024 To 20th Jan 2025
-- Mentor : Neela Santhosh Kumar 
+Name: Priyanshu Vijay Singh
+Company: CODTECH IT SOLUTIONS
+ID•. CT08FFC
+Domain: Cyber Security
+Duration: 20 dec 2024 to 20 jan 2025
+Mentor: Neela Santhosh Kumar
 # Overview
 
 The **File Integrity Checker** is a Python tool designed to monitor and verify the integrity of files using hash functions. It allows users to detect file modifications, maintain a history of changes, and ensure data consistency.
@@ -133,6 +133,5 @@ Previous Hash: b415b32cbf036c7af9bfba6f7fbaa8ef | Timestamp: 2025-01-16 15:10:18
 
 ---
 
-## Author
-- **Premkumar Soni**
+
 
